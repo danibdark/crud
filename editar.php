@@ -2,8 +2,8 @@
 <?php require("vista/cabecera.php"); ?>
 <?php
 
-$conexion = mysqli_connect("bwsnuoyf8gs8ksyrd9h3-mysql.services.clever-cloud.com", "uzyix51oxo4bxoep", "NnoXgGmKvWSD4MmIvGK8", "bwsnuoyf8gs8ksyrd9h3") or
-die("Problemas con la conexión");
+require 'conexion.php';
+
 
 
   if (isset($_GET['id'])){
