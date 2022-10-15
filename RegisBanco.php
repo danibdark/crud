@@ -11,8 +11,7 @@
     
       mysqli_close($conexion);
     
-      echo "Ingreso Correctamente.";
-      ?>
+header(location: "RegisBanco.php") ;     ?>
 
 
 
