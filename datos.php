@@ -91,7 +91,7 @@
         <div class="modal-body">
         <div class="usuario">
   <h2>BANCO</h2>
-  <form action="RegisBanco.php" method="post">
+  <form action="registrar.php" method="post">
     <div class="form-group">
        <label for="Nombre" class="text-primary">Nombre:</label>
       <input type="text" class="form-control" id="" placeholder="Digite su nombre" name="nombre">
